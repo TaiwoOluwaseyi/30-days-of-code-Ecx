@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: saddlebrown;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+input {
+  padding: 13px;
+  border: 0;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+}
+
+input:focus {
+  outline: none
+}
+
+.btn {
+  color: transparent;
+  border: 0;
+  color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+}
